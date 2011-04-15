@@ -116,6 +116,7 @@ setup(
         'PIL',
         'easy-thumbnails',
     ],
+    include_package_data=True,
     classifiers = [
         'Development Status :: 3 - Alpha',
         'Framework :: Django',
