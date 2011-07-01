@@ -7,3 +7,6 @@ dist/*
 django_servee_image.egg-info/*
 *dev.db
 *site_media
+example_project_renamed/*
+example_project/*
+example_project/templates/site_base.html
