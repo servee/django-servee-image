@@ -9,4 +9,3 @@ django_servee_image.egg-info/*
 *site_media
 example_project_renamed/*
 example_project/*
-example_project/templates/site_base.html
