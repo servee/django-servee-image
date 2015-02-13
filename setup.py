@@ -113,7 +113,7 @@ setup(
     package_data = find_package_data('servee_image',only_in_packages=False),
     install_requires = [
         # 'django-servee>0.5.5',
-        'PIL',
+        'Pillow',
         'easy-thumbnails',
     ],
     include_package_data=True,
