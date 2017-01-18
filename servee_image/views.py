@@ -23,7 +23,7 @@ def upload_photos(request):
 @login_required
 def recent_photos(request):
     images = [
-        {"thumb": obj.image.url, "image": obj.image.url}
+        {"thumb": obj.image.url, "url": obj.image.url}
         for obj in Image.objects.all().order_by("-uploaded")[:20]
     ]
     return HttpResponse(json.dumps(images), content_type="application/json")
